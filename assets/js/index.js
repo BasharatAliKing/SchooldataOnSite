@@ -110,6 +110,7 @@ function funcheadhome(e){
     console.log("button is Clicked...")
     studentsresults.remove();
     students.remove();
+    studentid.remove();
     newadmission.remove();
     rfid.remove();
     front.appendChild(home);
