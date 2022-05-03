@@ -94,4 +94,10 @@
         Padding-left: 20px;
         color: white;
     }
+    #rfid h1{
+        font-size: 40px;
+    }
+    #rfid #box{
+        width: 80%;
+    }
 }
