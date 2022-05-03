@@ -1,0 +1,254 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+#for{
+    width: 30%;
+    height: 50%;
+    box-shadow: 2px 4px 11px 2px #00000073;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    background-color: greenyellow;
+   
+}
+#king1 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+}
+#side-1 select{
+    margin-bottom:420px;
+   
+}
+#for img{
+    width: 40%;
+}
+.container{
+    margin: auto;
+}
+#for #submit{
+    margin: auto;
+    width: 30%;
+    color: white;
+    background-color: green;
+}
+#for #submit:hover{
+    color: white;
+    background-color: rgb(26, 134, 26);
+}
+#message{
+     color: blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+@media(max-width:576px){
+    #for{
+        width: 90%;
+    }
+}
+
+#header-sub nav{
+    background-color: yellowgreen;
+    height: 60px;
+}
+#header-sub ul li a{
+    color: white;
+}
+#header-sub ul li a:hover{
+    border-top: 2px solid rgb(255, 255, 255);   
+    background-color: green; 
+    border-radius: 5px;
+    z-index: 10;
+}
+
+#header-btn #king1 .col-md-3{
+    background-color: #2a3ecf;
+}
+#header-btn  #king1 .col-md-9{
+    background-color: #161664;
+}
+#header-btn #btn-main{
+    display: grid;
+    padding-top: 20px;
+}
+#header-btn #btn-main .btn{
+    border-top: 3px solid rgb(253, 255, 253);
+    width: 20px;
+   
+}
+#header-btn #btn-main #btn-2{
+    margin-top: -17px;
+}
+#header-btn #btn-main #btn-3{
+    margin-top: -16px;
+}
+#header-btn i{
+    color: green;
+    font-size: 20px;
+}
+#header-btn p{
+    color: red;
+}
+#header-btn select{
+    
+    width: 100%;
+    
+}
+#header-btn .col-md-2{
+    background-color: #f0f1f1;
+    height: 100%;
+}
+#header-btn .col-md-10{
+    padding-left: 0px;
+    
+}
+#home{
+    margin-top: 30px;
+    color: white;
+}
+#home .col-md-3{
+    position: relative;
+    display: block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    background-color: #00a65a!important;
+    margin-left: 50px;
+   
+}
+#home h6{
+    padding-right: 50px;
+}
+#home h6{
+    margin-bottom: 30px;
+}
+#home .button{
+    background-color: rgb(37, 131, 37);
+    width: 100%;
+    color: rgb(190, 188, 188);
+    position: absolute;
+    left: 0px;
+    border: none;
+}
+#home button i{
+    color: white;
+    padding-top: 2px;
+    margin-left: 3px;
+}
+#home button:hover {
+    background-color: green;
+    color: white;
+}
+#home #inner::before{
+    content: "\f080";
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size: 70px;
+    color: green;
+  margin-top: 40px;
+  margin-left: 160px;
+   
+}
+#home h1{
+   margin-top: -80px;
+    z-index: 5;
+}
+#home .col-md-3:hover #inner::before {
+    font-size: 75px;
+    z-index: 10;
+}
+#students-results{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+    background-color: #e3e3e3;
+   border-radius: 10px;
+}
+#students-results h3{
+    background-color: #00a65a;
+    padding: 10px;
+    color: white;
+}
+#students-results form{
+    padding: 10px;
+}
+#students-results button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#student-id{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30%;
+    background-color: #e3e3e3;
+   border-radius: 10px;
+}
+#student-id h3{
+    background-color: #00a65a;
+    padding: 10px;
+    color: white;
+}
+#student-id form{
+    padding:10px;
+}
+#student-id button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#new-admission textarea{
+    width: 100%;
+    height: 70px;
+}
+#new-admission .col-md-4{
+    background-color: #f0f1f1;
+}
+#new-admission h3{
+    margin-top: 20px;
+    background-color: green;
+   color: white;
+   padding: 10px;
+}
+
+#rfid{
+    text-align: center;
+}
+#rfid #box{
+    
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+#rfid h1{
+    color: blue;
+    font-size: 100px;
+    margin-top: 100px;
+    text-shadow: 2px 2px #19191d;
+    margin-bottom: 30px;
+   
+}
+
+#rfid #box h4{
+    padding: 10px;
+    color: white; 
+    background-color: #00a65a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0px;
+}
+#rfid #box #input{
+padding: 20px;
+background-color:#e3e3e3;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
